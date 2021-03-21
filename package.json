@@ -1,6 +1,6 @@
 {
     "name": "init-structure",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The awesome tool to initialize folder structure with pre-defined structure and template",
     "main": "index.js",
     "repository": {
