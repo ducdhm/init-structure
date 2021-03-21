@@ -27,7 +27,7 @@ const createFolder = (target, data, fileData) => {
     }
 };
 
-module.exports = (target, structure, fileData, callback) => {
+module.exports = (target, structure, fileData, callback = {}) => {
     typeof callback.beforeCreate === 'function' && callback.beforeCreate({target, structure, fileData}, logger);
 
     if (Array.isArray(structure)) {
