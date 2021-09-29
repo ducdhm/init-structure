@@ -1,3 +1,6 @@
+# DEPRECATED
+ * `init-structure` is deprecated now. Please use `@dudojs/init-structure` instead.
+
 # init-structure
 
 The awesome tool to initialize folder structure with pre-defined structure and template
